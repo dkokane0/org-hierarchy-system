@@ -8,7 +8,7 @@ const swaggerOptions = {
       version: "1.0.0",
       description: "API documentation for managing organization tree",
     },
-    servers: [{ url: `http://localhost:3000` }],
+    servers: [{ url: `https://org-hierarchy-system.onrender.com` }],
   },
   apis: ["./routes/*.js"],
 };
